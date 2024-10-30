@@ -1,0 +1,260 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    padding: 0%;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.career-container {
+    padding: 0px 4rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: #3333332c;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-logo img {
+    width: 80px;
+    height: 50px;
+}
+
+.header-nav-login {
+    color: #00B7E3;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.header-nav button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00B7E3;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.hero-content {
+    width: 60%;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-family: "Rubik Wet Paint", system-ui !important;
+    font-style: normal;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom: 25px;
+}
+
+.hero-content p {
+
+    font-family: sans-serif, Pangram;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+.hero-image img {
+    width: 500px;
+    height: 500px;
+}
+
+
+.hero-button {
+    display: flex;
+    gap: 1rem;
+    padding-top: 25px;
+}
+
+.hero-button .btn {
+    width: 200.5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button1 .btn {
+    background-color: rgb(0, 102, 255);
+    color: #fff;
+    width: 200.5px;
+    height: 56px;
+
+
+}
+
+
+.button2 .btn {
+    background-color: #fff;
+    color: #00B7E3;
+    border: 1px solid #00B7E3;
+    width: 200.5px;
+    height: 56px;
+
+
+}
+
+.hero-icon h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    padding: 25px 0;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icon-child1 {
+    display: flex;
+
+}
+
+.icon-child1-img {
+
+    margin: 10px;
+}
+
+.icon-child2 {
+    display: flex;
+}
+
+.icon-child2-img {
+    margin: 10px;
+}
+
+.hover-container,
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.hover-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+    width: 335px;
+    height: 330px;
+}
+
+.card:hover {
+    box-shadow: 3px 14px 21px 5px #011F2636;
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: left;
+}
+
+.card-content h5 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    line-height: 19.2px;
+}
+
+.card-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.hover-content-img {
+    width: 320px;
+    height: 250px;
+    border-radius: 18px;
+}
+
+.hero-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #EFFCFF;
+    padding: 20px;
+    top: 2067px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.hero-section-content-child2 {
+    width: 45%;
+    padding: 20px;
+}
